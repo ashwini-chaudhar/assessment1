@@ -1,0 +1,210 @@
+body {margin:0}
+.sidebar {
+  margin: 0;
+  fontsize: 15px;
+  padding: 0;
+  width: 200px;
+  background-color: #ffff;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+.sidebar a {
+  display: block;
+  text-align: center;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: #C5C5C5;
+  font-size: 17px;
+}
+.sidebar a.active {
+  background-color: #FFFF;
+  color: white;
+}
+
+
+.sidebar a:hover:not(.active) {
+  background-color: #33C6FF;
+  color: white;
+}
+
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.control1{
+	display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+	box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+  
+  .control2{
+	  display: block;
+    width: 150px;
+   height: 150px;
+    font-size: 1rem;
+   
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+ 	  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+  }
+  
+  body {
+    overflow-x: hidden;
+ }
+
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.content{
+    margin-left: -300px;
+	background-color: #f4f5f7;
+	
+}
+
+
+
+i{
+    font-weight: 100;
+}
+
+.active{
+    background-color:lightblue;
+}
+
+.sidebar-nav li {
+    text-indent: 25px;
+    margin-left: 4px;
+    padding: 2px 2px 2px 2px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #111;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #111;
+    background: rgba(210,226,239,255);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav li a i{
+    font-size: 30px;
+	color: #a2acb2;
+}
+
+.sidebar-nav li {
+    margin-top: 15px;
+}
+
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size:
+18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #111;
+    margin-left: -4px;
+}
+
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #111;
+    background: none;
+}
+
+  .control1{
+	display: block;
+    width: 70%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 1.00rem;
+	box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+.control2{
+	  display: block;
+    width: 150px;
+   height: 150px;
+    font-size: 1rem;
+   
+    color: #495057;
+    background-color: #fff;
+
+    border: 1px solid #ced4da;
+    
+	box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+  }
+  
+.icon{
+color: #87949d;
+margin-left: 3%;	
+}
+.form-group{
+	margin-left:10%;
+}
+.content-inside{
+	margin-top:125px;
+}
+
+
+  
+ 
